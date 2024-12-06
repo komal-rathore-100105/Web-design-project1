@@ -1,0 +1,67 @@
+.main-section{
+    background-image: url("oatimage4.jpg");
+    height:840px;
+    background-size: cover;
+    display:flex;
+}
+.events{
+  
+    height: 350px;
+    width:1510px;
+   margin-top: 0px;
+   margin-left: 30px;
+    border: 2px solid transparent;
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 25%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.event-image{ 
+    border: 2px solid transparent;
+    height : 320px;
+    width: 300px;
+    margin-top: 5px;
+    background-color: rgb(69, 133, 27);
+    transition: all 3s ease-in 1s;
+}
+.event-image:hover{
+    transform:translateY(40px);
+}
+
+.event-image img{ height: 300px;
+    width: 290px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-size: cover;
+}
+.image-overlay{
+    position:relative;
+
+}
+
+.image-overlay .overlay-text{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+.overlay-text { margin-top: 100px;
+   
+}
+.middle-panel{ 
+    border: 3px solid rgb(7, 60, 88) ;
+    height: 50px;
+    background-color: #333;
+   
+}
+.about-oat{
+    height:400px;
+}
+.description{
+    height:200px;
+    width: 1500px;
+    display: flex;
+}

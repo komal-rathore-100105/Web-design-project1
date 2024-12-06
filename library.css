@@ -1,0 +1,104 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  .library-div{
+    background-image:url("libraryimage.jpg") ;
+    background-image:url("libraryimage.jpg") ;
+    background-repeat: no-repeat;
+    
+   
+  }
+ 
+   h1 { color: #58bbdf;
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+   text-align: center;
+   background-color: #110f0f;
+  }
+  #about{
+  z-index: -8;
+  }
+  #collection{
+    z-index: 0;
+  }
+  #services{
+    z-index: 10;
+  }
+  
+  /* Section Styles */
+  section { width:400px;
+    padding: 2em;
+    background: #d49007;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition:all 3s ease-in-out 1s ;
+   
+  }
+  section:hover{
+    background-color: #58bbdf;
+     width:1300px;
+     transform: translateX(100px);
+  }
+  
+  section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+  
+  section p, section ul {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    margin: 0.5em 0;
+  }
+  
+  /* Contact Form Styles */
+  form label {
+    display: block;
+    margin-top: 1em;
+    color: #333;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  form button {
+    margin-top: 1em;
+    padding: 0.7em 2em;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #555;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #333;
+    color: #fff;
+    margin-top: 1em;
+  }
+  

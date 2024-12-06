@@ -1,0 +1,137 @@
+.br-main-section{
+    height: 850px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    background-image: url("brauditorium.jpg");
+    background-size: cover;
+    
+} 
+.br1{ position:absolute;
+    margin-left: 30px;
+    margin-top: 40px;
+    height: 320px;
+    width: 320px;
+    border:3px solid black;
+    border-radius: 30px;
+    background-color: rgb(36, 48, 58);
+    transition:all 4s ease-in 1s;
+    z-index: 3;
+    }
+    .br1 p{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 5px;
+       
+    }
+    .br1:hover{
+        transform: translate(550px,100px);
+        background-color: rgb(137, 210, 53);
+    }
+    
+.br2{ position:absolute;
+    margin-top: 390px;
+    margin-left: 30px;
+    height: 290px;
+    width: 290px;
+    border:3px solid black;
+    border-radius: 30px;
+    background-color: rgb(108, 114, 119);
+    transition:all 4s ease-in 1s;
+    z-index: 3;
+    }
+    .br2:hover{
+         transform:translate(550px,-100px);
+         background-color: rgb(32, 112, 218);
+    }
+.br2 p{ 
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+.br3{ position:absolute; 
+    margin-top: 40px;
+    margin-left: 350px;
+    height: 800px;
+    width: 800px;
+    border:3px solid black;
+    border-radius: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    transition:all 4s ease-out ;
+   
+    }
+    .br3:hover{
+        transform: rotate(360deg);
+        border-color: rgb(215, 21, 21);
+        border-width: 10px;
+    }
+    .br3-image{ border: 3px solid black;
+        height: 395px;
+        width:395px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .br3-image1{
+        background-image: url("braudiinsideimage2.jpg");
+          border-top-left-radius: 100%;
+    }
+    .br3-image2{
+        background-image: url("braudiinsideimage3.jpeg");
+        border-top-right-radius: 100%;
+    }
+    .br3-image3{
+        background-image: url("braudiinsideimage1.jpeg");
+        border-bottom-left-radius: 100%;
+    }
+    .br3-image4{
+        background-image: url("braudiinsideimage4.jpeg");
+        border-bottom-right-radius: 100%;
+    }
+
+ .br4{ position:absolute;
+    margin-top: 390px;
+    margin-left:1170px;
+    height: 290px;
+    width: 290px;
+    border:3px solid black;
+    border-radius: 30px;
+    background-color: rgb(108, 114, 119);
+    transition: all 3s ease-in 1s;
+    z-index: 3s;
+    }
+    .br4:hover{ 
+        transform: translate(-550px,-100px);
+        background-color: rgb(180, 82, 160);
+    }
+    .br4 p{ margin-top: 25px;
+        margin-left: 10px;
+        font-size: 25px;
+     }
+
+  .br5{position:absolute;
+    margin-left: 1150px;
+    margin-top: 40px;
+    height: 310px;
+    width: 310px;
+    border:3px solid black;
+    border-radius: 30px;
+    background-color: rgb(36, 48, 58);
+    transition: all 3s ease-in 1s;
+    z-index: 3s;
+    }
+    .br5 p{
+        font-size: 22px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .br5:hover{ 
+        transform: translate(-550px,180px);
+        background-color: rgb(31, 199, 199);
+
+    }
+
+
+
+    

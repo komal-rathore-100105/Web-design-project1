@@ -1,0 +1,294 @@
+*{
+    margin:0%;
+    border: border-box;
+    color: white;
+}
+.navbar{
+    height: 100px;
+    background-color: #0F1111;
+    display: flex;
+  justify-content: space-evenly;
+
+
+}
+.nav-logo{height: 100px;
+      width:135px;
+   display:inline-block;
+      border:1.5px solid transparent;
+      margin-top: 3px;
+      margin-left: 3px;
+      
+.logo{
+    height: 88px;
+    width:88px;
+    background-size: cover;
+    background-image: url("dtu logo.jpg");
+    background-repeat: no-repeat ;
+}
+}
+.border:hover{ 
+    border: 1.5px solid white;
+}
+.nav-address{
+    margin-left: 30px;
+    margin-top: 5px;
+    height: 80px;
+}
+
+.address1{ margin-left: 15px;
+    color:#ccc;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.icon{  display: flex;
+    align-items: center;
+
+}
+.address2{ margin-left: 4px;
+    color:#fff;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+.nav-mid-box{
+height: 90px;
+width: 70%;
+}
+.nav-search{
+display: flex;
+margin-top:8px;
+      height: 30px;
+      width:40;
+}
+.welcome{ margin-top: 5px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+.nav-option{ 
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+     border:none;
+    background-color:#e6e6e6;
+    width: 51.6px;
+      color:#555;
+}
+.input-search{ border:none;
+    height:30px;
+    width: 100%;
+    font-size: 1rem;
+    color:#111;
+
+}
+.search-icon{ width:45px;
+    height:30px;
+    background-color: #4c121d;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+
+.nav-search:hover{
+    border:2px solid rgb(246, 175, 42);
+}
+
+
+/* Panel one */
+.panel{ height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    display: space-evenly;
+   background-color: var(--__N4QdChsbGN6j, #2b2d40);
+}
+.panel i{
+    margin-left: 10px;
+}
+.all{ 
+    margin-left: 2px;
+    font-weight: 700;
+} 
+.panel-menu{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel-menu a:hover{
+    color:rgb(165, 21, 153);
+    background-color: rgb(221, 172, 26);
+    
+
+}
+
+.panel-menu a{   font-weight: 500;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+/* middle section */
+.middle-section{
+   
+  height: 197x;
+   background-repeat: no-repeat;
+   background-size: cover;
+} 
+/* hero section */
+.hero-section{
+    background-image: url("dtu location image.jpg");
+    height: 700px;
+    background-size: cover;
+   
+}
+
+/* shopping section */
+.shopping-section{
+    height: 1000px;
+}
+.section1{
+    height: 346px;
+    background-color: #ffd77d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+.section1A{
+    margin-top: 10px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.section1A h2 {  font-size: xx-large;
+    font-weight: 600;
+    color:#160845;
+}
+.section1B{ margin-top: 0%;
+    height: 330px;
+    background-color: #ffd77d;
+    display: flex;
+   scrollbar-width: 10px;
+    justify-content: space-evenly;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
+    overflow: auto;
+}
+
+.box{ background-color: white;
+    width: 250px;
+    height: 290px;
+    margin:3px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+ .box-img{ margin-top: 10px;
+    height: 234px; 
+    background-size: cover;
+ }
+ .img-text{
+    width: 250px;
+    height: 40px;
+    background-color: whitesmoke;
+ }
+ .text1{ text-align: center;
+     margin-top:2px;
+     color:#555;
+    width: 100%;
+    height: 20px;
+    overflow-y: scroll; 
+ }
+ .text2{ font-size:x-large;
+    margin-left: 30px;
+   
+   color: rgb(60, 58, 58);
+    width: 100%;
+    height: 15px;
+    font-weight: 600;
+
+ }
+ .section2{ margin-top: 15px;
+    height: 450px;
+    width:1492px;
+    background-color: #EAEAEA;
+    padding: 10px;  
+   
+}
+.imagesbox{ margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.aboveboxes{ background-color: white;
+    width: 330px;
+    height: 430px;
+    margin:10px;
+     margin-bottom: 5px;
+     margin-top: 0px;
+}
+.box2a{ margin-top: 0px;
+    height: 440px;
+    margin-bottom: 5px;
+}
+.footer1{ height: 90px;
+     color:#0F1111;
+    margin-left: 30%;
+     margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    margin-top: 15px;
+}
+.footpanel1{
+      height: 49px;
+      background-color: var(--__N4QdChsbGN6j, #2b2d40);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.footpanel2{ 
+    background-color: #505164;
+    height:280px;
+    display:flex;
+    text-decoration: none;
+    justify-content:  space-evenly;
+
+}
+
+ul a{ margin:10px;
+    display: block;
+    margin-top: 20px;
+}
+.footer2{
+    display:flex;
+   background-color: #505164;
+   align-items: center;
+   justify-content: center;
+}
+.footerlogo{
+    background-image: url("dtu logo.jpg");
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 30px;;
+}
+
+.pages{ background-color: #333737; 
+    display:flex;
+     justify-content: center;
+     align-items: center;
+     height: 30px;
+}
+.pages a{ margin-top:10px;
+    margin: 10px;
+    margin-bottom:0px;
+}
+.copyright{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    background-color: #333737;
+}
