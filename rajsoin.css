@@ -1,7 +1,6 @@
 .rajsoin-main-section{
     height: 700px;
  border: 3px solid transparent;
- background-color: rgb(171, 219, 221);
  background-size: cover;
 display: flex;
 align-items: center;
@@ -12,40 +11,44 @@ z-index: -3;
 .section1a{
     height: 300px;
     width: 500px;
-    border: 3px solid rgb(17, 112, 129);
+    border: 3px solid rgb(18, 46, 51);
     border-radius: 20px;
-    background-color: rgb(11, 174, 174);
-    z-index: 3;
+    background-color: var(--__N4QdChsbGN6j, #2b2d40);
+    z-index: 2;
     transition: all 3s ease-in-out;
 }
 .section1a:hover{
     height: 500px;
     width: 700px;
-    background-color: pink;
-
+    
 }
-.section1a p:hover{
+.section1a ul:hover{
     font-size: 25px;
-    margin-top: 25px;
-    color: blue;
+    margin-top: 35px;
+   
 }
-.section1a p{
-    color: black;
+.section1a  ul li:hover{
+    color: rgb(24, 24, 224);
+}
+.section1a  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(218, 218, 236);
     margin-top: 20px;
     
     margin-left: 5px;
 }
 .section1b{
     height:680px;
-    width:780px;
+    width:840px;
     border: 2px solid transparent;
-    
-    background-color: rgb(106, 190, 190);
+    background-color:var(--__N4QdChsbGN6j, #2b2d40) ;
     z-index: 0;
 }
 .section1b1{
     height: 280px;
-    width: 500px;
+    width: 550px;
     margin-top: 10px;
     margin-left: 130px;
     background-image: url("rajsoinbackgrdimage.jpg");
@@ -55,15 +58,15 @@ z-index: -3;
 
 .section1b2{
     height: 380px;
-    width: 600px; 
+    width: 650px; 
     margin-top: 5px;
     margin-left: 90px;
-    border: 3px solid black;
     display:grid;
    grid-auto-flow: column;
    grid: 100%;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
+    border-radius: 20px;
 }
 .raj-audi-image{ height:360px;
     width: 700px;
