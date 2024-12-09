@@ -8,13 +8,14 @@
 /* Body styling */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.2;
     color: #333;
     background-color: #7d97ae;
 }
 
 /* Header styling */
-header {
+.branch {
+
     background-color: #1e4f8e;
     color: white;
     padding: 1rem;
@@ -97,7 +98,6 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }

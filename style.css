@@ -3,12 +3,16 @@
     border: border-box;
     color: white;
 }
+header{
+    height: auto;
+    width: 100%;
+   
+}
 .navbar{
     height: 100px;
     background-color: #0F1111;
     display: flex;
   justify-content: space-evenly;
-
 
 }
 .nav-logo{height: 100px;
