@@ -1,17 +1,17 @@
 /* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(189, 135, 174);
-}
+    background-color:#7d97ae;
 
 header {
-    background-color: #47043d;
-    color: white;
+    background-color:#7d97ae; rgb(32, 86, 134);
     text-align: center;
-    padding: 1rem;
+    padding: 0%;
+}
+header h1,p{
+    color:#0b024b;
 }
 
 nav ul {
@@ -19,7 +19,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #75256b;
+    background-color: transparent; 
 }
 
 nav ul li {
@@ -27,8 +27,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color:#0b024b; 
     text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 section {
@@ -44,49 +46,67 @@ section {
     height: 500px;
     width: 800px;
 }
-#home{
+#m-home{
     margin-left: 30px;
     margin-top: 20px;
     height: 400px;
     width: 600px;
     z-index: 50;
-    background-color: #a24e97;
+    background-color: #4f6086; 
     font-size: larger;
     font-weight: 500;
     font-family: 'Segoe UI';
-    transition: all 3s ease-out ;
+    transition: all 3s ease-out;
 }
-#home:hover{
-    background-color: aquamarine;
+#m-home:hover{
+    background-color: rgb(8, 167, 202);
+}
+#m-home p{
+    color:#080334;
+}
+#m-home p:hover{
+    color: #080334;
+}
+#m-home iframe{
+    height: 140px;
+    width: 560px;
+    filter: invert(100%);
 }
 .medical-section2{ margin-top: 20px;
     margin-left: 60px;
     padding: 20px;
     width: 1400px;
     border:2px solid transparent;
-    background-color:#9b4790 ;
+    background-color:#4f6086;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    transition: all 3s ease-out normal;
+    transition: all 6s ease-out normal;
 }
 #services:hover{
-    transform: rotate(360deg);
-    background-color: aquamarine;
+    transform:scale(1.5);
+    background-color:rgb(8, 167, 202);
+    z-index: 1;
+}
+#services ul li{
+    color:rgb(18, 18, 106);
+    list-style-type: none;
 }
 #staff:hover{
-    transform: rotate(360deg);
-    background-color: aquamarine;
+    transform: scale(1.5);
+    background-color:rgb(8, 167, 202); 
+    z-index: 2;
 }
 #timings:hover{
-    transform: rotate(360deg);
-    background-color: aquamarine;
+    transform: scale(1.5);
+    background-color:rgb(8, 167, 202); 
+    z-index: 1;
 }
 #contact:hover{
-    transform: scale(2);
-    background-color: aquamarine;
+    transform: scale(1.5);
+    background-color: rgb(8, 167, 202);
+    z-index:2;
 }
-
 
 #services{  background-color: rgba(72, 76, 75, 0.433);
     height:300px;
@@ -94,34 +114,39 @@ section {
     border-radius: 50%;
     margin-left: 50px;
     transition: all 2s ease-out ;
+    z-index: 1;
 }
 #staff{ background-color: rgba(72, 76, 75, 0.433);
-    height: 450px;
-    width: 450px;
+    height: 420px;
+    width: 420px;
      border-radius: 50%;
-     z-index: 30;
+     z-index: 1;
      transition: all 2s ease-out ;
 }
 #timings{background-color: rgba(72, 76, 75, 0.433);
     height: 250px;
     width:250px;
     border-radius: 50%;
-    z-index: 40;
+    z-index: 1;
     transition: all 2s ease-out ;
 }
 #contact{
-    background-color: #532b4f96;
+    background-color:#4f6086;
     border-radius: 20px;
-    margin-left: 460px;
-    transition: all 3s ease-out  ;
+    margin-left: 490px;
+    margin-bottom: 10px;
+    transition: all 3s ease-out;
 }
 
 #faq{
-    background-color: #4c364a;
-    
+    background-color:#4f6086; 
+}
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #370431;
+    background-color: #0f0332;
+    color: white;
+}
+footer p{
     color: white;
 }

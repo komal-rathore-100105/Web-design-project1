@@ -10,34 +10,41 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.2;
     color: #333;
-    background-color: #7d97ae;
+    background-color:#7d97ae;
 }
 
 /* Header styling */
 .branch {
-
-    background-color: #1e4f8e;
-    color: white;
-    padding: 1rem;
+    color: rgb(18, 72, 166);
     text-align: center;
+}
+.branch h1{
+    color: rgb(18, 72, 166);
+} 
+.branch  p{
+    color: rgb(18, 72, 166);
 }
 
 /* Navigation bar styling */
-nav ul {
+.bank-nav{
+    height: 35px;
+}
+.bank-nav ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    background-color: #333;
+    background-color:transparent; #1d1d64; 
+}
+.bank-nav ul li {
+    margin: 0%;
+    padding: 0%;
 }
 
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: white;
+.bank-nav ul li a {
+    color: rgb(18, 72, 166);
+    font-size: larger;
+    font-weight: bolder;
     text-decoration: none;
-    padding: 0.5rem 1rem;
     display: inline-block;
 }
 
@@ -50,9 +57,6 @@ main {
     padding: 2rem;
 }
 
-section {
-    margin-bottom: 2rem;
-}
 #home{
     margin-left: 30px;
     margin-top: 20px;
@@ -61,8 +65,17 @@ section {
     z-index: 50;
    
 }
+#home p{
+    background-color: #7d97ae;
+    padding: 10px;
+    transition: all 1s ease-in;
+}
+#home p:hover{
+    background-color:var(--__N4QdChsbGN6j, #2b2d40); 
+    
+}
 #bank-image{
-    background-image: url("bank-sbi-image.jpg");
+    background-image: url("bankimg2(dtu).jpg");
     height: 330px;
     width:  700px;
     background-size: cover;
@@ -73,23 +86,50 @@ section {
 }
 #about,#services,#contact{
     margin-left: 30px;
-    margin-top: 20px;
-    height: 300px;
+    margin-top: 10px;
+    height: 280px;
     width: 500px;
-    z-index: 50;
-    background-color: rgb(163, 180, 196);
+    background-color:hwb(207 38% 38%);  
 }
 #services{
-    height:370px;
-    margin-left: 130px;
+    height:330px;
+    margin-left: 346px;
+    margin-top: 3px;
 }
 
 .bank-section2{
     display: flex;
 }
+.p-text{
+    background-color: #7d97ae; 
+    width: 450px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.p-text p{
+    background-color:#7d97ae;
+     padding: 10px;
+     transition: all 1s ease-in;
+}
+.p-text p:hover{
+    background-color:var(--__N4QdChsbGN6j, #2b2d40); 
+}
 #contact{
     height: 200px;
-    margin-left: 450px;
+    margin-left: 33px;
+}
+#bank-map{
+    height:230px;
+    width: 650px;
+    margin-left: 195px;
+    margin-top: 15px;
+    background-color:hwb(207 38% 38%); 
+}
+#bank-map iframe{
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 20px;
+    
 }
 
 /* Footer styling */

@@ -23,7 +23,7 @@
     height : 320px;
     width: 300px;
     margin-top: 5px;
-    background-color: rgb(69, 133, 27);
+    background-color:var(--__N4QdChsbGN6j, #2b2d40); rgb(69, 133, 27);
     transition: all 3s ease-in 1s;
 }
 .event-image:hover{

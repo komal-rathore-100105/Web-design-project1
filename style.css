@@ -6,7 +6,6 @@
 header{
     height: auto;
     width: 100%;
-   
 }
 .navbar{
     height: 100px;
@@ -151,12 +150,12 @@ margin-top:8px;
 }
 
 /* shopping section */
-.shopping-section{
-    height: 1000px;
+.shops-section{
+    height: 900px;
 }
 .section1{
     height: 346px;
-    background-color: #ffd77d;
+    background-color:var(--__N4QdChsbGN6j, #2b2d40); #ffd77d;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -169,11 +168,11 @@ margin-top:8px;
 }
 .section1A h2 {  font-size: xx-large;
     font-weight: 600;
-    color:#160845;
+    color:#c1b1b1;rgb(220, 195, 28);
 }
 .section1B{ margin-top: 0%;
     height: 330px;
-    background-color: #ffd77d;
+    background-color:var(--__N4QdChsbGN6j, #2b2d40); #ffd77d;
     display: flex;
    scrollbar-width: 10px;
     justify-content: space-evenly;
