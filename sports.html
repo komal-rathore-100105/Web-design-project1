@@ -11,6 +11,74 @@
     <link rel="stylesheet" href="rajsoin.css">
     <link rel="stylesheet" href="shops.css">
     <link rel="stylesheet" href="sports.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2b2d40;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgb(27, 135, 217);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .gallery-item {
+            width: calc(33.333% - 10px);
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery-item .info {
+            padding: 10px;
+        }
+        .gallery-item .info h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .gallery-item .info p {
+            margin: 5px 0 0;
+            color: #555;
+        }
+        @media (max-width: 768px) {
+            .gallery-item {
+                width: calc(50% - 10px);
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery-item {
+                width: 100%;
+            }
+        }
+    </style>
     
 </head>
 <body>
