@@ -56,4 +56,148 @@
                     </div>
                 </div>
     </header>
-    <div 
+    
+   
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            header {
+                background-color: #2b2d40;
+                color: white;
+                padding: 1rem 0;
+                text-align: center;
+            }
+            .container {
+                padding: 20px;
+                max-width: 1200px;
+                margin: auto;
+            }
+            
+            .section {
+                margin: 20px 0;
+                padding: 20px;
+                background: rgb(27, 135, 217);
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            .section h2 {
+                margin-top: 0;
+            }
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+            .gallery-item {
+                width: calc(33.333% - 10px);
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                margin-bottom: 20px;
+            }
+            .gallery-item img {
+                width: 100%;
+                height: auto;
+            }
+            .gallery-item .info {
+                padding: 10px;
+            }
+            .gallery-item .info h3 {
+                margin: 0;
+                font-size: 18px;
+            }
+            .gallery-item .info p {
+                margin: 5px 0 0;
+                color: #555;
+            }
+            @media (max-width: 768px) {
+                .gallery-item {
+                    width: calc(50% - 10px);
+                }
+            }
+            @media (max-width: 480px) {
+                .gallery-item {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>DTU Sports Complex</h1>
+        </header>
+        <div class="container">
+            <div class="section">
+                <h2>Welcome to the DTU Sports Complex</h2>
+                <p>The DTU Sports Complex is a state-of-the-art facility designed to cater to the sporting needs of students and staff. With world-class infrastructure and facilities, it promotes physical fitness and sportsmanship.</p>
+            </div>
+    
+            <div class="section">
+                <h2>Facilities</h2>
+                <p>The sports complex includes facilities for various sports such as:</p>
+                <ul>
+                    <li>Cricket</li>
+                    <li>Football</li>
+                    <li>Basketball</li>
+                    <li>Badminton</li>
+                    <li>Table Tennis</li>
+                    <li>Gymnasium</li>
+                </ul>
+            </div>
+    
+            <div class="section">
+                <h2>Gallery</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="cricket.jpg" alt="Cricket Ground">
+                        <div class="info">
+                            <h3>Cricket Ground</h3>
+                            <p>A spacious cricket ground for matches and practice sessions.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="football.avif" alt="Football Ground">
+                        <div class="info">
+                            <h3>Football Ground</h3>
+                            <p>A well-maintained football ground for competitive and friendly matches.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="basketball.jpeg" alt="Basketball Court">
+                        <div class="info">
+                            <h3>Basketball Court</h3>
+                            <p>Indoor and outdoor courts for basketball enthusiasts.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="badmintion.avif" alt="Badminton Court">
+                        <div class="info">
+                            <h3>Badminton Court</h3>
+                            <p>Modern indoor badminton courts with excellent lighting.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="tt.jpeg" alt="Table Tennis Area">
+                        <div class="info">
+                            <h3>Table Tennis Area</h3>
+                            <p>Dedicated table tennis area for players of all levels.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="GYM.jpeg" alt="Gymnasium">
+                        <div class="info">
+                            <h3>Gymnasium</h3>
+                            <p>Fully equipped gymnasium for fitness and strength training.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    

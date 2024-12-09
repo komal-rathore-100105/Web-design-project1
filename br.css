@@ -62,11 +62,7 @@
     transition:all 4s ease-out ;
    
     }
-    .br3:hover{
-        transform: rotate(360deg);
-        border-color: rgb(215, 21, 21);
-        border-width: 10px;
-    }
+    
     .br3-image{ border: 3px solid black;
         height: 395px;
         width:395px;
