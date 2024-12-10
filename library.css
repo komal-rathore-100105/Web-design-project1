@@ -1,53 +1,74 @@
 /* General Styles */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
   }
   .library-div{
     background-image:url("libraryimage.jpg") ;
-    background-image:url("libraryimage.jpg") ;
-    background-repeat: no-repeat;
+    background-size: 60% ;
+    background-repeat: repeat;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
     
    
   }
  
-   h1 { color: #58bbdf;
-    font-size: 2.5em;
-    margin-bottom: 0.2em;
-   text-align: center;
-   background-color: #110f0f;
-  }
-  #about{
-  z-index: -8;
-  }
-  #collection{
-    z-index: 0;
-  }
-  #services{
-    z-index: 10;
-  }
-  
   /* Section Styles */
-  section { width:400px;
+   #about,#collection, #services,#facilities,#hours,#contact{ 
+    width:303px;
     padding: 2em;
-    background: #d49007;
-    margin: 1em 0;
+    background: #7d97ae;
+    margin-bottom: 3px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     transition:all 3s ease-in-out 1s ;
    
   }
-  section:hover{
+   #about:hover{
     background-color: #58bbdf;
-     width:1300px;
+     width:600px;
+     transform: scaleX(1.5);
+     margin-left: 100px;
+  }
+  #collection:hover{
+    background-color: #58bbdf;
+     width:600px;
      transform: translateX(100px);
+     transform: scaleX(1.5);
+  }
+  #hours:hover{
+    background-color: #58bbdf;
+     width:600px;
+     transform: translateX(100px);
+     transform: scaleX(1.5);
+     margin-right: 50px;
+  }
+  #facilities:hover{
+    background-color: #58bbdf;
+     width:600px;
+     transform: translateX(100px);
+     transform: scaleX(1.5);
+  }
+  #services:hover{
+    background-color: #58bbdf;
+     width:700px;
+     transform: ;translateX(100px);
+     transform: scaleX(1.5);
+  }
+  #contact{
+    width: 70%;
+    margin-left: 180px;
   }
   
-  section h2 {
-    font-size: 1.8em;
-    color: #333;
+  
+
+  
+  #about h2,#collection h2, #services h2,#facilities h2,#hours h2,#contact h2 {
+    font-size: 25px;
+    color: #221c1c;
     margin-bottom: 0.5em;
   }
   
