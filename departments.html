@@ -13,6 +13,65 @@
     <link rel="stylesheet" href="sports.css">
     <link rel="stylesheet" href="departments.css">
     <title>College Departments Information</title>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+      }
+      header {
+          background-color: #2c3e50;
+          color: white;
+          padding: 20px;
+          text-align: center;
+      }
+      header h1 {
+          margin: 0;
+      }
+      nav {
+          background-color: #34495e;
+          color: white;
+          padding: 10px;
+          text-align: center;
+      }
+      nav a {
+          color: white;
+          margin: 0 15px;
+          text-decoration: none;
+      }
+      nav a:hover {
+          text-decoration: underline;
+      }
+      main {
+          padding: 20px;
+      }
+      .department {
+          margin-bottom: 20px;
+          background: #ffffff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .department img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
     
     
 </head>
@@ -29,11 +88,12 @@
                   <p class="address2">DTU location</p>
                 </div>
               </div>
+              <div class="dtu-location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.982036019729!2d77.11751939999996!3d28.749953300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0138a74f7da7%3A0xf09fad683c23bd5d!2sDelhi%20Technological%20University!5e0!3m2!1sen!2sin!4v1733892009182!5m2!1sen!2sin" height="80px;" width="150px" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
                 <div class="nav-mid-box">
                     <div class="nav-search">
-                         <select class="nav-option">
-                        <option>All</option>
-                         </select>
+                         
                     <input type="search" class="input-search" placeholder="Search dtu.com">
                     <div class="search-icon" ><i class="fa-solid fa-magnifying-glass"></i></div>
                     </div>
@@ -59,9 +119,36 @@
                     </div>
                 </div>
     </header>
-    <h2 style="color:black">CSE Departments</h2>
-    <h2 style="color:blue">IT Departments</h2>
-    
+    <header>
+      <h1>Department of Delhi Technological University</h1>
+      <p>Excellence in Education and Research</p>
+  </header>
+  <nav>
+      <a href="#cs">Computer Science</a>
+      <a href="#me">Mechanical Engineering</a>
+      <a href="#ee">Electrical Engineering</a>
+  </nav>
+  <main>
+      <section id="cs" class="department">
+          <h2>Computer Science Department</h2>
+          <img src="demartmentsimage1.jpg" alt="Computer Science Department">
+          <p>The Computer Science Department at DTU is a hub of innovation and excellence, offering world-class education and research opportunities in cutting-edge technologies.</p>
+      </section>
+      <section id="me" class="department">
+          <h2>Mechanical Engineering Department</h2>
+          <img src="me_department.jpg" alt="Mechanical Engineering Department">
+          <p>The Mechanical Engineering Department at DTU focuses on advanced manufacturing, thermodynamics, and machine design to prepare future-ready engineers.</p>
+      </section>
+      <section id="ee" class="department">
+          <h2>Electrical Engineering 
+            Department</h2>
+            <img src="ee_department.jpg" alt="Electrical Engineering Department">
+            <p>The Electrical Engineering Department provides state-of-the-art laboratories and a curriculum designed to meet the challenges of modern electrical systems.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Delhi Technological University | All Rights Reserved</p>
+    </footer>
 
     </body>
     </html>

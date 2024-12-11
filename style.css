@@ -15,7 +15,7 @@ header{
 
 }
 .nav-logo{height: 100px;
-      width:135px;
+      width:100px;
    display:inline-block;
       border:1.5px solid transparent;
       margin-top: 3px;
@@ -23,7 +23,7 @@ header{
       
 .logo{
     height: 88px;
-    width:88px;
+    width:90px;
     background-size: cover;
     background-image: url("dtu logo.jpg");
     background-repeat: no-repeat ;
@@ -32,10 +32,9 @@ header{
 .border:hover{ 
     border: 1.5px solid white;
 }
-.nav-address{
-    margin-left: 30px;
-    margin-top: 5px;
-    height: 80px;
+.nav-address{ 
+    margin-top: 20px;
+    height: 50px;
 }
 
 .address1{ margin-left: 15px;
@@ -53,6 +52,10 @@ header{
     font-weight: 700;
 
 }
+.dtu-location iframe{
+    margin-top: 10px;
+    border-radius: 50%;
+}
 .nav-mid-box{
 height: 90px;
 width: 70%;
@@ -69,15 +72,11 @@ margin-top:8px;
     align-items: center;
     margin-left: 10rem;
 }
-.nav-option{ 
+
+.input-search{
     border-top-left-radius:4px;
     border-bottom-left-radius:4px;
      border:none;
-    background-color:#e6e6e6;
-    width: 51.6px;
-      color:#555;
-}
-.input-search{ border:none;
     height:30px;
     width: 100%;
     font-size: 1rem;
@@ -97,7 +96,7 @@ margin-top:8px;
 }
 
 .nav-search:hover{
-    border:2px solid rgb(246, 175, 42);
+    border:2px solid rgb(150, 7, 31);
 }
 
 
@@ -122,10 +121,9 @@ margin-top:8px;
     justify-content: space-evenly;
 }
 .panel-menu a:hover{
-    color:rgb(165, 21, 153);
-    background-color: rgb(221, 172, 26);
+    color:rgb(11, 108, 244);
+    text-decoration-line: underline ;
     
-
 }
 
 .panel-menu a{   font-weight: 500;
