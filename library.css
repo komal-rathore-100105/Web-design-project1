@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
   }
   .library-div{
-    background-image:url("libraryimage.jpg") ;
+    background-image:url("") ;
     background-size: 60% ;
     background-repeat: repeat;
     margin: 0%;
@@ -17,13 +17,14 @@
   }
  
   /* Section Styles */
-   #about,#collection, #services,#facilities,#hours,#contact{ 
+   #about,#collection, #services,#facilities,#hours,#contact, #library-location { 
     width:303px;
     padding: 2em;
     background: #7d97ae;
+    margin-top: 5px;
     margin-bottom: 3px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
     transition:all 3s ease-in-out 1s ;
    
   }
@@ -59,8 +60,8 @@
      transform: scaleX(1.5);
   }
   #contact{
-    width: 70%;
-    margin-left: 180px;
+    width: 80%;
+    margin-left: 10px;
   }
   
   
@@ -112,6 +113,20 @@
   
   form button:hover {
     background: #555;
+  }
+  #library-location{
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #library-location iframe{
+    height: 310px;
+    width: 310px;
+    margin-top: 6px;
+    margin-left: 10px;
+    filter: invert(100%);
+    border-radius: 10px;
   }
   
   /* Footer Styles */
