@@ -153,7 +153,7 @@ margin-top:8px;
 }
 .section1{
     height: 346px;
-    background-color:var(--__N4QdChsbGN6j, #2b2d40); #ffd77d;
+    background-color:var(--__N4QdChsbGN6j, #2b2d40); 
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -166,7 +166,7 @@ margin-top:8px;
 }
 .section1A h2 {  font-size: xx-large;
     font-weight: 600;
-    color:#c1b1b1;rgb(220, 195, 28);
+    color:#c1b1b1;
 }
 .section1B{ margin-top: 0%;
     height: 330px;
@@ -183,12 +183,13 @@ margin-top:8px;
     width: 250px;
     height: 290px;
     margin:3px;
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 4px;
 }
- .box-img{ margin-top: 10px;
+ .box-img{ 
     height: 234px; 
     background-size: cover;
+    border-radius: 4px;
  }
  .img-text{
     width: 250px;
@@ -236,7 +237,7 @@ margin-top:8px;
 }
 .footer1{ height: 90px;
      color:#0F1111;
-    margin-left: 30%;
+    margin-left: 35%;
      margin-top: 10px;
     margin-bottom: 10px;
 }

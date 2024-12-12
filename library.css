@@ -31,33 +31,26 @@
    #about:hover{
     background-color: #58bbdf;
      width:600px;
-     transform: scaleX(1.5);
-     margin-left: 100px;
+     transform: scaleX(1.2);
+     margin-left: 20px;
   }
   #collection:hover{
     background-color: #58bbdf;
      width:600px;
-     transform: translateX(100px);
-     transform: scaleX(1.5);
+     transform: scaleX(1.2);
   }
   #hours:hover{
     background-color: #58bbdf;
-     width:600px;
-     transform: translateX(100px);
-     transform: scaleX(1.5);
-     margin-right: 50px;
+     transform: scaleX(1.2);
+     margin-right: 100px;
   }
   #facilities:hover{
     background-color: #58bbdf;
-     width:600px;
-     transform: translateX(100px);
-     transform: scaleX(1.5);
+     transform: scaleX(1.2);
   }
   #services:hover{
     background-color: #58bbdf;
-     width:700px;
-     transform: ;translateX(100px);
-     transform: scaleX(1.5);
+     transform: scaleX(1.2);
   }
   #contact{
     width: 80%;
