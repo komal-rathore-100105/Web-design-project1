@@ -1,2 +1,2 @@
 DTU-TOUR Website<br>
-by- Komal Rathore
+link : https://dtutourweb-design-project1.vercel.app/
